@@ -5,6 +5,6 @@ int main(){
     cin>>r;
     float Area=3.14*pow(r,2);
     float Volume=4.186*pow(r,2);
-    cout<<"Area of a circle= "<<Area<<endl;
-    cout<<"Volume of a sphere= "<<Volume;
+    cout<<fixed<<setprecision(2)<<Area<<endl;
+    cout<<fixed<<setprecision(2)<<Volume;
     }
