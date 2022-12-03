@@ -7,7 +7,7 @@ int main(){
      cin>>dep_money>>t;
      while(t--){
      ci=dep_money*pow((1+0.04),t);
-     cout<<ci<<endl;
+     cout<<fixed<<setprecision(2)<<ci<<endl;
      }
      
     }
