@@ -1,11 +1,10 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
     float r;
     cin>>r;
-    R=r*r;
-    float Area=3.14*R;
-    float Volume=3.14*R*r;
-    cout<<"Area of a circle= "<<Area;
-    cout<<"Volume of a cicle "<<Volume;
+    float Area=3.14*pow(r,2);
+    float Volume=4.186*pow(r,2);
+    cout<<"Area of a circle= "<<Area<<endl;
+    cout<<"Volume of a sphere= "<<Volume;
     }
