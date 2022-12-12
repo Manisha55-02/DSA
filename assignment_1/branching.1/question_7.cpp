@@ -12,9 +12,7 @@ int main(){
     else if(month=="january" || month=="february"){
         cout<<"winter";
     }
-    else if(month=="march"){
-        if(day<20) cout<<"winter";
-    }
+    
     if(month=="march"){
         if(day>=20) cout<<"spring";
         else cout<<"winter";
@@ -22,10 +20,7 @@ int main(){
     else if(month=="april" || month=="may"){
         cout<<"spring";
     }
-    else if(month=="june"){
-        if(day<20) cout<<"spring";
-        
-    }
+    
     if(month=="june"){
         if(day>=21) cout<<"fall";
         else cout<<"summer";
