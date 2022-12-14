@@ -1,13 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    string bin;
+    int bin,weight=1,sum=0,rem;
     cin>>bin;
-    for(int i=0;i<=bin.length();i++){
-      bin[i]=bin[i]*pow(2,i+1);
- 
+    while(bin!=0){
+      rem=bin%10;
+      sum=sum+rem*weight;
+      bin=bin/10;
+      weight=weight*2;
+
     }
-    cout<<bin;
-    
+    cout<<sum;
 
     }
