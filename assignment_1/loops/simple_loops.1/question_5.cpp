@@ -8,5 +8,5 @@ int main(){
                  sum=sum+i;
             }
     }
-    cout<<"Sum of first "<<n<<" odd integers"<<sum;
+    cout<<"Sum of first "<<n<<" odd integers: "<<sum;
     }
