@@ -1,9 +1,6 @@
 def removeMysteryLength(str):
-    if str[-1:-3]==len(str):
-        return str[-3:0]
-    
-    
-    
-    
-     
+    for i in range(1,len(str)):
+        if(len(str)<=99):
+            return str[0:len(str)-i-1]
+        
 print(removeMysteryLength("jamesBond00712"))

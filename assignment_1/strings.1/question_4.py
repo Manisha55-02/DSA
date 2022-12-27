@@ -3,6 +3,6 @@ def decode(ch):
 def encode(n):
     return chr(n)
 
-print(decode('a'))
+print(decode('z'))
 print(encode(97))
 
