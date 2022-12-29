@@ -1,28 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 string  encrpytWithCaesar(string msg,int shft){
-    string res ="";
+    string res ="",tmp="";
     int  pos;
     char ch;
-    for(int i=0;i<msg.length();i++){
+     for(int i=0;i<msg.length();i++){
         ch= msg[i];
         if(ch>='a' && ch<='z'){
-            pos = ch - 'a';
+           pos = ch - 'a';
            pos = (pos + shft )%26;
-           res = 'a'+pos;
-           return res;
+           tmp = ('a'+pos);
+           res += tmp;
+           return tmp;
         
         }
         else if(ch>='A' && ch<='Z'){
             pos = ch - 'A';
            pos = (pos + shft )%26;
-           res = 'A'+pos;
-           return res;
+           tmp= ('A'+pos);
+           res+=tmp;
+           return tmp;
            
         } 
          
         else {
-            return "fuck";
+            tmp=ch;
+            res+=tmp;
+            return tmp;
+            
         }
         }
         

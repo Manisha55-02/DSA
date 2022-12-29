@@ -1,4 +1,4 @@
-
+#method 1
 def reverseWords1(str):
     
     str=str.split(" ")
@@ -8,17 +8,20 @@ def reverseWords1(str):
     return res
 print(reverseWords1("INDIA IS COUNTRY"))
 
+#method 2
 def reverseWords2(S):
     s=S.split(' ')
     s.reverse()
     return ' '.join(s)
 print(reverseWords2("INDIA IS COUNTRY"))
 
+#method 3
 def reverseWords3(S):
         
     return ' '.join(S.split(' ')[::-1])
 print(reverseWords3("INDIA IS COUNTRY"))
 
+#method 4
 def reverseWords4(str):
     n=len(str)
     tmp=" "
