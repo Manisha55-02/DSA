@@ -27,6 +27,7 @@ int main(){
  //cout<<getComputerMove();
  cout<<getResult();
  for(int i=0;i<10;i++){
+    
 
  }
 }
