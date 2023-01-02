@@ -6,15 +6,7 @@ void readWrite(string in_name, string out_name) {
 	ifstream fin(in_name);
 	ofstream fout(out_name);
 	string line;
-	int pos;
 	while(getline(fin, line)) {
-        pos=line.indexOf('#')
-        if(pos>=0){
-            fout.write(line.substring(0,pos))+"\n";
-        }
-        else {
-            fout.write(line+ "\n");
-        }
 		fout << line << "\n";
 	}
 	fin.close();

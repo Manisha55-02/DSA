@@ -23,11 +23,13 @@ int getResult(){
 }
 
 int main(){
- //cout<<getUserMove();
- //cout<<getComputerMove();
- cout<<getResult();
- for(int i=0;i<10;i++){
+//cout<<getUserMove();
+
+
+     cout<<getResult();
+
+
     
 
- }
+ 
 }
