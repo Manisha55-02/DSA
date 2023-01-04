@@ -25,11 +25,8 @@ int getResult(){
 int main(){
 //cout<<getUserMove();
 
-
      cout<<getResult();
 
-
-    
 
  
 }
