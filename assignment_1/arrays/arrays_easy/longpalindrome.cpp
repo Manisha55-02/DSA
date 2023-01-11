@@ -8,6 +8,7 @@ int findLengthOfLongPal(string s){
         else
             ++freq[c-'A'];
     }
+
     int count=0;
     bool isOddExists = false;
     for(int i=0;i<52;i++){
@@ -36,6 +37,6 @@ int main(){
     string s3="";
     assert(findLengthOfLongPal(s3)==0);
     string s4="bb";
-    assert(findLengthOfLongPal(s4)==3);
+    assert(findLengthOfLongPal(s4)==2);
 
 }
